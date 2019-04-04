@@ -1,89 +1,89 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application & Route Filters
-|--------------------------------------------------------------------------
-|
-| Below you will find the "before" and "after" events for the application
-| which may be used to do any work before or after a request into your
-| application. Here you may also register your custom route filters.
-|
-*/
+Route::filter('authenticatedFilter', function()
+{   
+    if (Auth::guest()) {
+        return Redirect::guest('login');
+    } 
+});
 
-App::before(function($request)
-{
-//	if (!$request->secure()) {
-//            return Redirect::secure($request->getRequestUri());
-//	}
+Route::filter('subscription',function(){
+    if(!Auth::user()->isAdmin()){
+        $company = Auth::user()->company;
+
+        if ($company->is_enterprise){
+            if (!$company->onGracePeriod()) {
+                return Redirect::to('login')->with(array('message'=>'Your subscription expired. Please contact the WKS sales department.'));
+            }
+        } else{
+            $daysLeft = $company->trialDaysLeft();
+            $daysLeftGrace = $company->gracePeriodDaysLeft();
+            // If the company never subscribed and no trial left
+            // OR The company did subscribe and then cancelled and they are not on their grace period
+            if ((!$company->everSubscribed() && !$company->onTrial()) || ($company->everSubscribed() && $company->cancelled() && !$company->onGracePeriod())) {
+                return Redirect::to('billing/details');
+            }
+        }
+    }
 });
 
 
-App::after(function($request, $response)
-{       
-	if (starts_with($request->path(), 'api')){
-		$logger = new \Monolog\Logger('wkss');
-		$logFile = storage_path().'/logs/wkss.txt';
-		$logger->pushHandler(new \Monolog\Handler\RotatingFileHandler($logFile, 30));
-		$logString = date('Y-m-d H:i:s').PHP_EOL.''.$request->getMethod().' || '. $request->getURI().' || '.$request->getContent().PHP_EOL.
-		             $response->getStatusCode().' || '.$response->getContent().PHP_EOL.PHP_EOL;
-		$logger->info($logString);
-	}
+// If the user is still on an old plan, we need to redirect them to a page where they can upgrade to the new plan. 
+Route::filter('notOnOldPlan',function(){
+    if(!Auth::user()->isAdmin()){
+        $company = Auth::user()->company;
+
+        if (!$company->is_enterprise){
+            // If they have subscribed in the past and their plan is the old one
+            if ($company->stripe_plan != NULL && $company->stripe_plan == BillingController::TIER_1_PRICING) {
+                // Force company to update card and move to new subscription 
+                return Redirect::to('billing/upgrade-to-annual');
+            }
+        }
+    }
 });
 
-/*
-|--------------------------------------------------------------------------
-| Authentication Filters
-|--------------------------------------------------------------------------
-|
-| The following filters are used to verify that the user of the current
-| session is logged into this application. The "basic" filter easily
-| integrates HTTP Basic authentication for quick, simple checking.
-|
-*/
-
-Route::filter('auth', function()
-{
-	if (Auth::guest()) return Redirect::guest('login');
+Route::filter('notEnterprise',function(){
+    if(!Auth::user()->isAdmin()){
+        $company = Auth::user()->company;
+        if ($company->is_enterprise){
+            // Enterprise companies should be redirected
+            return Redirect::to('/');
+        }
+    }
 });
 
+Route::filter('hasRights', function($requestRoute) {   
+    $user = Auth::user();
+    $role = $user->role_id;
+    if (!Session::has('tz_offset'))
+    {
+        Session::forget('tz_offset');
+    }
+    Session::put('tz_offset',$user->tz_offset);
+    $userLevel = Config::get("webApp::userRoles.{$role}");
+    // dd($userLevel);
+    $routes = $userLevel['routes'];
+    $requestPath = trim($requestRoute->getPath(),'/');
+    $requestMethod = strtolower(head($requestRoute->getMethods()));
 
-Route::filter('auth.basic', function()
-{
-	return Auth::basic();
+    if ($requestPath){
+        if (!array_key_exists($requestPath, $routes)){
+                return Response::make('Forbidden', 403);
+        }else{
+            $methods = explode('|',$routes[$requestPath]);
+            if (!in_array($requestMethod, $methods)){
+                return Response::make('Method not allowed', 405);
+            }
+        }
+    }
 });
 
-/*
-|--------------------------------------------------------------------------
-| Guest Filter
-|--------------------------------------------------------------------------
-|
-| The "guest" filter is the counterpart of the authentication filters as
-| it simply checks that the current user is not logged in. A redirect
-| response will be issued if they are, which you may freely change.
-|
-*/
-
-Route::filter('guest', function()
-{
-	if (Auth::check()) return Redirect::to('/');
-});
-
-/*
-|--------------------------------------------------------------------------
-| CSRF Protection Filter
-|--------------------------------------------------------------------------
-|
-| The CSRF filter is responsible for protecting your application against
-| cross-site request forgery attacks. If this special token in a user
-| session does not match the one given in this request, we'll bail.
-|
-*/
-
-Route::filter('csrf', function()
-{
-	if (Session::token() != Input::get('_token'))
-	{
-		throw new Illuminate\Session\TokenMismatchException;
-	}
+Route::filter('resetTokenExists', function($route)
+{   
+    $resetToken = $route->getParameter('resetToken');
+    $admin = Admin::getByResetToken($resetToken);
+    if ( !$admin instanceof Admin){
+        App::abort(404);
+    }
 });

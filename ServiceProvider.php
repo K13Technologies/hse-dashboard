@@ -1,36 +1,15 @@
-<?php namespace App\Modules;
+<?php namespace App\Modules\webApp;
  
-abstract class ServiceProvider extends \Illuminate\Support\ServiceProvider {
- 
-    public function boot()
-    {
-        if ($module = $this->getModule(func_get_args()))
-        {
-            $this->package('app/' . $module, $module, app_path() . '/modules/' . $module);
-        }
-    }
+class ServiceProvider extends \App\Modules\ServiceProvider {
  
     public function register()
     {
-        if ($module = $this->getModule(func_get_args()))
-        {
-            $this->app['config']->package('app/' . $module, app_path() . '/modules/' . $module . '/config');
- 
-            // Add routes
-            $routes = app_path() . '/modules/' . $module . '/routes.php';
-            if (file_exists($routes)) require $routes;
-           
-            // Add routes
-            $filters = app_path() . '/modules/' . $module . '/filters.php';
-            if (file_exists($filters)) require $filters;
-        }
+        parent::register('webApp');
     }
  
-    public function getModule($args)
+    public function boot()
     {
-        $module = (isset($args[0]) and is_string($args[0])) ? $args[0] : null;
- 
-        return $module;
+        parent::boot('webApp');
     }
  
 }
