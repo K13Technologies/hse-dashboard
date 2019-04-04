@@ -1,0 +1,19 @@
+.span3>.list-container{
+    min-width:270px;
+}
+.center{
+    text-align: center
+}
+
+.major-number{
+    font-size:24px;
+    color:#165ca2;
+}
+.minor-number{
+    font-size:20px;
+    color:#14a3d4;
+}
+.of-which{
+    font-size:18px;
+    color: #14a3d4;
+}

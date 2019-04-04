@@ -1,0 +1,41 @@
+.hero-unit{
+    padding:10px 37px 10px 10px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    position:relative;
+    
+}
+.question, .answer{
+    width:1111px;
+}
+#question,#answer{
+    width:1135px;
+    max-width: 1136px;
+}
+h5.faq-lbl{
+    margin:0px;
+}
+.center{
+    text-align: center;
+}
+.hero-unit form{
+    margin:0px;
+    overflow-wrap: break-word;
+}
+.container h4{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+h4,p{
+    overflow-wrap: break-word;
+}
+.btn-grey.small{
+    padding: 3px 5px;
+    height:25px;
+}
+.top-right-action-bar{
+    position:absolute;
+    top:5px;
+    right:0px;
+    width:30px;
+}

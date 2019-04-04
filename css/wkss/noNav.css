@@ -1,0 +1,27 @@
+
+#noNavTitleContainer{
+    padding:49px 0 42px;
+    text-align: center;
+}
+#noNavLeftLine{
+    background-image: url('../../img/wkss/left_line_title_login.png');
+    height:2px;
+    width: 110px;
+    display:inline-block;
+    margin-bottom: 9px;
+}
+#noNavRightLine{
+    background-image: url('../../img/wkss/right_line_title_login.png');
+    height:2px;
+    width: 110px;
+    display:inline-block;
+    margin-bottom: 9px;
+}
+#noNavTitle{
+    color:#3b4f5e;
+    font-size: 30px;
+    text-shadow:0 1px #fff;
+    display:inline-block;
+    padding:0 19px;
+    font-weight: bold;
+}

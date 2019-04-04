@@ -1,0 +1,40 @@
+.photo-slider{
+    width:238px;
+    border:2px solid #3c3d40;
+    overflow: hidden; 
+    position: relative;
+}
+.nivo-directionNav{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color:black;
+    opacity: 0.5;
+    padding-top:5px;
+}
+
+.nivo-directionNav a {
+    position: relative!important;
+    display:inline-block;
+    height:30px;
+}
+
+.nivo-nextNav {
+    background-position:-30px 0px;
+    width:30px;
+    float: right;
+    background-image: url('../../css/themes/default/arrows.png');
+    background-repeat:no-repeat;
+    margin-right:10px;
+}
+.nivo-prevNav {
+    background-position:0 0;
+    width:30px;
+    background-image: url('../../css/themes/default/arrows.png');
+    background-repeat:no-repeat;
+    margin-left:10px;
+}
+
+.nivo-directionNav{
+    z-index: 100;
+}

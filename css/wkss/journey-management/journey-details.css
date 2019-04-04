@@ -1,0 +1,56 @@
+.row-fluid [class*="span"]{
+    min-height: 1px;
+}
+
+#list-container-worker-photo{
+    max-width: 96px;
+    max-height: 96px;
+}
+
+/*Overrides the default size of the search box to be a bit smaller*/
+#journeyTable input, select {
+    width:65px;
+}
+#mapBox {
+    width: 100%;
+    height: 100%;
+}
+.journey-header-label{
+    padding-top:10px;
+    font-weight: bold;
+    color: #2396ea;
+    font-size:16px;
+    border-bottom: 1px solid #96bfea;
+}
+
+.journey-label{
+    padding-top: 7px;
+    font-size:14px;
+    color:#7e8092;
+}
+.tabbed {
+    padding-left:30px
+}
+.here-marker{
+    border-left: 10px solid green;
+    padding-left: 10px;
+}
+.here-marker-red{
+    border-left: 10px solid rgb(255, 86, 8);
+    padding-left: 10px;
+}
+
+/* Responsive Google Map*/
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}

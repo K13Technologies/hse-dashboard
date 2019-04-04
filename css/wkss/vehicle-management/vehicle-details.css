@@ -1,0 +1,34 @@
+.row-fluid [class*="span"]{
+    min-height: 1px;
+}
+
+#list-container-vehicle-photo{
+    max-width: 96px;
+}
+
+.inspection-header-label{
+    padding-top:10px;
+    font-weight: bold;
+    color: #2396ea;
+    font-size:16px;
+    border-bottom: 1px solid #96bfea;
+}
+
+#inspection-comment, .inspection-label{
+    padding-top: 7px;
+    font-size:14px;
+    color:#7e8092;
+}
+
+/*Overrides the default size of the search box to be a bit smaller*/
+#vehicleInspectionsTable input, select {
+    width:65px;
+}
+
+.required-action-item .action-description{
+    width:530px;
+}
+.inspection-label, .content-description{
+    width: 418px;
+    display: inline-block;
+}
