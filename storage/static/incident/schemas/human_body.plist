@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>images</key>
+	<dict>
+		<key>human_body</key>
+		<string>https://url/api/wkss/frontBody.png</string>
+	</dict>
+	<key>parts</key>
+	<dict>
+		<key>front_head</key>
+		<string>123/35/55/60</string>
+                <key>front_neck</key>
+		<string>106/85/88/30</string>
+		<key>front_hand_right</key>
+		<string>29/115/77/223</string>
+		<key>front_hand_left</key>
+		<string>194/115/77/223</string>
+                <key>front_trunk</key>
+		<string>106/125/88/132</string>
+		<key>front_leg_right</key>
+		<string>106/257/45/266</string>
+		<key>front_leg_left</key>
+		<string>151/257/43/266</string>
+		<key>back_head</key>
+		<string>122/565/55/60</string>
+                <key>back_neck</key>
+		<string>106/625/88/30</string>
+		<key>back_hand_right</key>
+		<string>194/646/76/223</string>
+		<key>back_hand_left</key>
+		<string>29/646/76/223</string>
+                <key>back_trunk</key>
+		<string>106/655/88/131</string>
+		<key>back_leg_right</key>
+		<string>150/787/45/267</string>
+		<key>back_leg_left</key>
+		<string>106/787/45/267</string>
+	</dict>
+</dict>
+</plist>
+

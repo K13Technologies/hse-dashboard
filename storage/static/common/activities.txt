@@ -1,0 +1,34 @@
+Drilling Rig
+Service Rig
+Coiled Tubing Rig
+Offsite - Pipelines
+Offsite - Facilities
+Completions
+Workovers
+Construction
+Construction - Facilities
+Construction - Lease
+Construction - Pipelines
+Construction - Roads
+Medical Services
+Geophysical
+Camps
+Operations
+Transportation
+Production
+Business Support
+Turnarounds
+Earthworks
+Abandonments
+Reclamation & Remediation
+Environmental
+Safety Services
+Maintenance Services
+Hydrovac Operations
+Vacuum Operations
+Combo Unit Operations
+Water Hauling Operations
+Crane Operations
+Heavy Equipment Operations
+Excavation Operations
+Other 

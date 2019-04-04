@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>images</key>
+	<dict>
+		<key>trailer</key>
+		<string>https://url/api/wkss/frontBody.png</string>
+	</dict>
+	<key>parts</key>
+	<dict>
+		<key>front_bumper</key>
+		<string>101/88/96/30</string>
+                <key>front_left_quarter_panel</key>
+		<string>52/91/33/47</string>
+		<key>front_right_quarter_panel</key>
+		<string>214/91/33/47</string>
+		<key>left_door</key>
+		<string>55/153/54/35</string>
+                <key>right_door</key>
+		<string>190/153/54/35</string>
+		<key>roof</key>
+		<string>116/141/66/57</string>
+		<key>undercarriage_left</key>
+		<string>9/104/42/285</string>
+		<key>undercarriage_right</key>
+		<string>248/104/42/285</string>
+                <key>trailer</key>
+		<string>52/202/194/340</string>
+		<key>trailer_undercarriage_left</key>
+		<string>9/415/42/125</string>
+		<key>trailer_undercarriage_right</key>
+		<string>249/415/42/125</string>
+	</dict>
+</dict>
+</plist>
+

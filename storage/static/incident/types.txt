@@ -1,0 +1,21 @@
+Injury
+Illness
+First Aid
+Medical Aid
+Fatality
+Release/Spill
+Fire/Explosion
+Motor Vehicle
+Motor Vehicle - Accident
+Motor Vehicle - Wildlife
+Mobile Equipment
+Property Damage
+Equipment Failure
+Security
+Public Complaint
+Electrical Event
+Machinery
+Third Party
+Workplace Violence
+Harassment
+Other

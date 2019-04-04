@@ -1,0 +1,228 @@
+General Labour 
+Deck Hand 
+Seaman 
+Second Mate 
+Engine Room Operator
+Engineering Technologist/Technician
+Welder 
+Production Technician 
+Rigger 
+Captain/Master 
+Ships Officer 
+Chief Engineer 
+Caterer 
+First Mate
+Pipefitter 
+Second Engineer 
+Electrician 
+Instrumentation/Electronics Technician
+Plater
+Surveyor Technologist 
+Barge Engineer
+Instrumentation/Controls Engineer
+Well Engineer
+Fourth Engineer 
+Marine Engineer
+Third Engineer
+Drilling Engineer 
+Geologist 
+Structural Engineer 
+Engineering Management
+Mechanical Engineer
+Process Engineer 
+Piping Engineer 
+Electrical Engineer 
+Civil Engineer 
+Corrosion Engineer 
+Electrical Engineer
+Instrumentation Engineer
+Instrumentation Technician
+Industrial Electricians
+Industrial Millwrights
+Stationary Engineers
+Process Operators
+Supervisors, Drilling & Service Sectors
+MWD (Measurement While Drilling) Coordinator
+MWD (Measurement While Drilling) Specialist
+Quality Assurance Analyst
+Seismic Permitting Coordinator (Seismic Acquisition)
+Aircraft Ground Handler
+Aircraft Technician
+Bed Truck Operator
+Bottom Hole Pump Repairperson
+Class 1 Driver
+Community/Aboriginal Affairs Liaison
+Control Room Operator
+Customer Service Representative
+Data Management - Field Scout
+Data Management - Seismic Data Processor
+Data Management Coordinator - Geological
+Data Management Coordinator - Mapping/GIS
+Data Management Coordinator - Seismic
+Directional Drilling Coordinator
+Directional Drilling Operator
+Drilling - Chief Observer
+Drilling - Derrickman
+Drilling - Drilling Supervisor/Driller
+Drilling - Field Superintendent
+Drilling - Floorhand
+Drilling - Leaseman
+Drilling – Motorhand
+Drilling - Operations Assistant
+Drilling - Rig Manager
+Economics/Financial Analyst
+Engineer - Chemical
+Engineer - Civil
+Engineer - Corrosion
+Engineer - Drilling
+Engineer - Electrical
+Engineer - Environmental
+Engineer - Facilities
+Engineer - Geological
+Engineer - Geotechnical
+Engineer - Instrumentation
+Engineer - Mechanical
+Engineer - Mining
+Engineer - Other
+Engineer - Petroleum
+Engineer - Pipeline
+Engineer - Pipeline Integrity
+Engineer - Process
+Engineer - Reservoir
+Engineer (Well Services, Testing, Field, Wireline)
+Environmental Advisor
+Field Engineer
+Field Operator
+Gasfitter
+Geologist
+Geophysicist
+Health Coordinator
+Helicopter Pilot
+Journeyman Welder
+Journeyman-B Pressure Welder 
+Land - Contracts Analyst (Subsurface/Mineral Rights)
+Land - Contracts Analyst (Surface)
+Land - Land Administrator (Subsurface/Mineral Rights)
+Land - Land Administrator (Surface)
+Land - Negotiator (Subsurface/Mineral Rights)
+Land - Negotiator (Surface)
+Logistics Coordinator
+Maintenance - Carpenter
+Maintenance - Electrician
+Maintenance - Gauger/Measurement
+Maintenance - Instrument Technician
+Maintenance - Insulator
+Maintenance - Machinist
+Maintenance - Millwright
+Maintenance - Pipeliner
+Maintenance - Rotating Equipment Worker
+Maintenance - Steamfitter/Pipefitter
+Marine - 1st Mate
+Marine - 2nd Engineer
+Marine - 2nd Mate
+Marine - 3rd Engineer
+Marine - Ballast Control Operator
+Marine - Barge Engineer
+Marine - Captain
+Marine - Communications Engineer
+Marine - Diver
+Marine - Dynamic Positioning Technician
+Marine - Engine Room Operator
+Marine - Gun Mechanic
+Marine - Industrial and Employment
+Benefits Coordinator
+Marine - Marine Engineer/Chief Engineer
+Marine - Naval Architect
+Marine - Offshore Crane Operator
+Marine - Offshore Medic
+Marine - Radio Operator
+Marine - ROV (Remote Operated Vehicle) Pilot
+Marine - Seaman
+Marine - Seismic Navigator
+Marine - Subsea Engineer
+Market Analyst
+Marketer
+Mechanic - Heavy Duty
+Mechanic - Lead Hand
+Mechanic - Oilfield
+MWD (Measurement While Drilling) Coordinator
+MWD (Measurement While Drilling) Specialist
+Non-Steam Operator
+Operations - Heavy Equipment Operator
+Operations - Process Operator
+Operators - Construction/Design
+Operators - Control Centre
+Operators - Drilling/Completions
+Operators - Heavy Oil
+Operators - Operations Planning and Control
+Operators - Pipeline Scheduling
+Operators - Reclamation/Construction
+Operators - Terminal Operations
+Pipeline Operator & Maintenance
+Plant Superintendent
+Production Accountant
+Project Manager
+Quality Assurance Analyst
+Quality Assurance Manager
+Regulatory Analyst
+Safety
+Safety/Environment
+Seismic Acquisition - Crew Manager
+Seismic Acquisition - Field Supervisor
+Seismic Acquisition - Heavy Equipment
+Operator
+Seismic Acquisition - Seismic Driller
+Seismic Acquisition - Seismic Permitting
+Coordinator
+Seismic Acquisition - Seismic Project Manager
+Seismic Acquisition - Seismic Shooter
+Seismic Acquisition - Survey Worker
+Seismic Acquisition - Surveyor
+Seismic Observer
+Seismic Processor
+Seismic Worker
+Service Assistant (Coil Tubing,Cementing, Fracturing)
+Service Operator (Coil Tubing,
+Cementing, Fracturing, Bulk Plant)
+Service Supervisor (Coil Tubing, Cementing, Fracturing)
+Ships Officers
+Station Operator
+Steam Operator - 1st Class
+Steam Operator - 2nd Class
+Steam Operator - 3rd Class
+Steam Operator - 4th Class
+Supervisor, Field Operations
+Supply Analyst
+Tank Truck and Wagon Operator
+Technologist - Chemical
+Technologist - Corrosion
+Technologist - Drafting/Design
+Technologist - Electrical
+Technologist - Engineering
+Technologist - Engineering (Mechanical)
+Technologist - Engineering (Petroleum)
+Technologist - Geology
+Technologist - Geophysics
+Technologist - Geotechnical
+Technologist - Instrumentation
+Technologist - Lab
+Technologist - Mining
+Technologist - Other
+Technologist - Process
+Warehouse Technician
+Well Servicing - Derrickhand
+Well Servicing - Driller (Operator)
+Well Servicing - Drilling Supervisor
+Well Servicing - Floorhand
+Well Servicing - Motorhand
+Well Servicing - Rig Manager (Tool Push)
+Well Servicing - Swabtech Operator
+Wellsite Geologist
+Winch Tractor Operator
+Wireline Specialist
+Foreman 
+Process/Field Operators 
+Mechanics 
+Electrical/Instrumentation 
+Technicians – General 
+Welders

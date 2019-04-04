@@ -1,0 +1,16 @@
+Business Support
+Drilling Rig
+Service Rig
+Coiled Tubing Rig
+Camps
+Medical
+Geophysical
+Completions
+Workovers
+Turnarounds
+Operations
+Production
+Earthworks
+Reclamation   
+Abandonments
+Construction - Pipelines

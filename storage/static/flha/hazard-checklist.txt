@@ -1,0 +1,24 @@
+Personal limitations/hazards| Fatigue/Stress, Procedures not available for task,Confusing Instructions, Training Required, Mental/Physical/Medical Limitations, First time performing the task, No training for tasks or tools to be used, New worker, Distractions
+Ergonomic hazards|Awkward Body Position, Over Extension, Working in tight areas, Lift to heavy/awkward, Repetitive motion, Working above your head
+Hazard control| Toolbox Meeting, Job Hazard Analysis for task, Safe Work Practice for task
+Emergency equipment| Rescue equipment, Eye Wash, First aid kit, Emergency Response Plan, Communication, Evacuation routes identified
+Fire prevention| Combustibles removed from work area, Fire extinguishers - in place, Compressed gas - away from ignition, Spark watch required, Fire blankets required
+Communication| Participation in planning, Discussing H & S Issues, Informing others on site, Clarifying expectations, Encouraging others to report, Responding to feedback
+Personal protection| Dressing for weather, Asking for help lifting, Discussing fatigue, Using appropriate PPE, Requesting training
+Body positioning| Informing of safe positioning, Using hand tools properly, Lifting properly, Taking safe position, Using barriers
+Leadership/Supervision| Coaching Co Worker, Creating team, Engaging in safety meetings, Soliciting worker input, Inviting Expert present
+Camp/Driving| Camp concern, Driver behavior, Occupational Health and Hygiene, Weather related
+Psychological| Violence in the workplace, Work pace, Working alone, Over/Under worked, Worker phobias, Poor leadership, Lack of motivation, No procedures, Bullying and harassment, Client/Contractor aggression, Fatigue, Shift work
+Chemical Hazard| Chemical reactions, Production of chemicals, Chemical incompatibility, Chemical storage, Flammable substances, Combustible substances, Carcinogenic substances, Mutagenic substances, Teratogenic substances, Oxidizing substances, Corrosive substances, Pressurized containers
+Electrical hazards|Lighting levels too low, Working on/near energized equipment, Electrical cords in good condition, Fire extinguishers location, Hot work of electrical permit required
+Driving hazards| Other traffic, road conditions, Wildlife, Tight areas/reversing, Lack of focus, Drive to road conditions, Report all wildlife sightings, Always use spotter, Watch out for other drivers
+Access/Egress| Pre Access inspection, Aerial lift/man basket, Scaffold(inspected/tagged), Hoisting (tools,equipment), Ladders tied off, Evacuation plan (alarms,routes), Confined space entry permit required, Hands are free for 3 point contact, Area flagged/tagged
+Overhead| Falling Items, Foreign bodies in eyes, Hoising or mobbing load overhead, Barricades/Signs in place, Hole coverings identified, Area flagged off, Harness/lanyard inspected, 100% tie with harness, Tie of with harness, Tie off points identified
+Environmental| Work area clean, Rest breaks, Material storage identified, Dust/Mist/Fume, Cold, Noise in the area (less than 85 dba), Extreme temperatures, Warming shelters, Spill potential, Proper clothing, Waste containers needed, Other workers in area, Weather conditions, Waste properly disposed, Excavation permit required, MSDS reviewed, Hazardous atmosphere, Waste plan identified, Heat, Water coolers, Shade relief
+PPE and Tools| Proper PPE and tools available, All PPE and tools inspected before use, Properly trained for specific PPE or tools, Available/good conditions, Shock sparks
+Rigging and Hoisting| Slings and shackles inspected, Others working overhead/below, lift study required/load weight known, Critical lift permit, Equipment inspected/capacity for lift, Communication, Swing path clear, Tag lines, Signal person identified
+Heights| Anchors, Obstructions, Loose materials, Head bangers
+Sanitation| Work surfaces, Wet surfaces, Work area clean, Materials stored neatly, Waste containers, Washrooms
+Power hand tools| Cutting torch condition/use, Grinders condition/use, Come along condition/use, Electrical cords splices/frays, Safeguards in place, Faulty/defective removed from service
+Equipment| Operating tele handler, Operating man lift, Operating crane, Welding machines, Operating motor vehicles, Moving/rotating equipment, Power supplies - generator, Air compressor (Whip checks)
+Energy sources| Motion (mechanical), Chemical, Radiation, Electrical, Gravity, Heat/Cold (temperature), Pressure, Biological, Ignition sources 25m away from facilities, Motor vehicles 7.5m away from facilities or hydrocarbon sources, Overhead power-lines, Underground facilities, Diesel Engine require PAS
